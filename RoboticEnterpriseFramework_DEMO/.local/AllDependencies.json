@@ -1112,15 +1112,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Home\\.nuget\\packages\\": {}
+    "C:\\Users\\Djib\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "RoboticEnterpriseFramework_DEMO",
       "projectName": "RoboticEnterpriseFramework_DEMO",
-      "projectPath": "D:\\Dev\\UIP.01\\RoboticEnterpriseFramework_DEMO\\.local",
-      "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\UIP.01\\RoboticEnterpriseFramework_DEMO\\.local"
+      "projectPath": "C:\\Users\\Djib\\Documents\\UiPath\\uiPath\\RoboticEnterpriseFramework_DEMO\\.local",
+      "packagesPath": "C:\\Users\\Djib\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Djib\\Documents\\UiPath\\uiPath\\RoboticEnterpriseFramework_DEMO\\.local"
     },
     "frameworks": {
       "net461": {
