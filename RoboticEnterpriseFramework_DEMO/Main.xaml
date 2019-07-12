@@ -65,14 +65,14 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <StateMachine InitialState="{x:Reference __ReferenceID4}" sap2010:Annotation.AnnotationText="-- ReFrameWork - Robotic Enterprise Framework --&#xA;-- TEMPLATE--" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="990,820" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="-- ReFrameWork - Robotic Enterprise Framework --&#xA;-- TEMPLATE--" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="990,820" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
         <av:Point x:Key="ShapeLocation">40,2.5</av:Point>
         <x:Double x:Key="StateContainerWidth">975.572597908814</x:Double>
         <x:Double x:Key="StateContainerHeight">742</x:Double>
-        <av:PointCollection x:Key="ConnectorLocation">67,77.5 67,107.5 108.6,107.5 108.6,159.5</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">67,77.5 67,107.5 497,107.5 497,181.9 467,181.9</av:PointCollection>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
@@ -323,7 +323,7 @@
                   </sap:WorkflowViewStateService.ViewState>
                   <Transition.Condition>[SystemError IsNot Nothing]</Transition.Condition>
                   <Transition.To>
-                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Read Config, Init Applications" DisplayName="InitTODEL" sap:VirtualizedContainerService.HintSize="445,1167" sap2010:WorkflowViewState.IdRef="State_2">
+                    <State x:Name="__ReferenceID3" sap2010:Annotation.AnnotationText="Read Config, Init Applications" DisplayName="Init" sap:VirtualizedContainerService.HintSize="234,88" sap2010:WorkflowViewState.IdRef="State_2">
                       <State.Entry>
                         <TryCatch DisplayName="Catch intialization exceptions" sap:VirtualizedContainerService.HintSize="419,753" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                           <sap:WorkflowViewStateService.ViewState>
@@ -622,7 +622,7 @@
     <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
     <x:Reference>__ReferenceID3</x:Reference>
-    <State x:Name="__ReferenceID4" DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="139,74" sap2010:WorkflowViewState.IdRef="State_5">
+    <State DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="139,74" sap2010:WorkflowViewState.IdRef="State_5">
       <State.Entry>
         <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Read_Input_XLSX workflow" sap:VirtualizedContainerService.HintSize="314,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="Read_Input_XLSX.xaml">
           <ui:InvokeWorkflowFile.Arguments>
