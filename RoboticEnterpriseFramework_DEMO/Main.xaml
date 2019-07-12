@@ -632,7 +632,7 @@
       </State.Entry>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">440.5,3</av:Point>
+          <av:Point x:Key="ShapeLocation">30.5,153</av:Point>
           <av:Size x:Key="ShapeSize">139,74</av:Size>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <x:Double x:Key="StateContainerWidth">125</x:Double>
@@ -643,7 +643,7 @@
         <Transition DisplayName="T1" sap2010:WorkflowViewState.IdRef="Transition_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:PointCollection x:Key="ConnectorLocation">579.5,54.8 609.5,54.8 609.5,107 219.5,107 219.5,212.7 233,212.7</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">169.5,204.8 199.5,204.8 199.5,212.7 233,212.7</av:PointCollection>
               <x:Int32 x:Key="SrcConnectionPointIndex">52</x:Int32>
               <x:Int32 x:Key="DestConnectionPointIndex">49</x:Int32>
             </scg:Dictionary>
