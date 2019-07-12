@@ -65,14 +65,14 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <StateMachine InitialState="{x:Reference __ReferenceID4}" sap2010:Annotation.AnnotationText="-- ReFrameWork - Robotic Enterprise Framework --&#xA;-- TEMPLATE--" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="990,820" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+  <StateMachine InitialState="{x:Reference __ReferenceID3}" sap2010:Annotation.AnnotationText="-- ReFrameWork - Robotic Enterprise Framework --&#xA;-- TEMPLATE--" DisplayName="General Business Process" sap:VirtualizedContainerService.HintSize="990,820" sap2010:WorkflowViewState.IdRef="StateMachine_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
         <av:Point x:Key="ShapeLocation">40,2.5</av:Point>
         <x:Double x:Key="StateContainerWidth">975.572597908814</x:Double>
         <x:Double x:Key="StateContainerHeight">742</x:Double>
-        <av:PointCollection x:Key="ConnectorLocation">67,77.5 67,107.5 101.65,107.5 101.65,159.5</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">67,77.5 67,234.7 233,234.7</av:PointCollection>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
@@ -622,7 +622,7 @@
     <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID1</x:Reference>
     <x:Reference>__ReferenceID3</x:Reference>
-    <State x:Name="__ReferenceID4" DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="139,74" sap2010:WorkflowViewState.IdRef="State_5">
+    <State DisplayName="Dispatcher" sap:VirtualizedContainerService.HintSize="139,74" sap2010:WorkflowViewState.IdRef="State_5">
       <State.Entry>
         <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Read_Input_XLSX workflow" sap:VirtualizedContainerService.HintSize="314,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="Read_Input_XLSX.xaml">
           <ui:InvokeWorkflowFile.Arguments>
@@ -632,7 +632,7 @@
       </State.Entry>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">53,159.5</av:Point>
+          <av:Point x:Key="ShapeLocation">570.5,3</av:Point>
           <av:Size x:Key="ShapeSize">139,74</av:Size>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
           <x:Double x:Key="StateContainerWidth">125</x:Double>
@@ -643,7 +643,7 @@
         <Transition DisplayName="T1" sap2010:WorkflowViewState.IdRef="Transition_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:PointCollection x:Key="ConnectorLocation">192,211.3 222,211.3 222,212.7 233,212.7</av:PointCollection>
+              <av:PointCollection x:Key="ConnectorLocation">709.5,54.8 739.5,54.8 739.5,107 203,107 203,212.7 233,212.7</av:PointCollection>
               <x:Int32 x:Key="SrcConnectionPointIndex">52</x:Int32>
               <x:Int32 x:Key="DestConnectionPointIndex">49</x:Int32>
             </scg:Dictionary>
